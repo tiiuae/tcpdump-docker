@@ -12,7 +12,7 @@ jobs:
         id: meta # referenced from later steps
         uses: docker/metadata-action@v3
         with:
-          images: tiiuae/tcpdump
+          images: ghcr.io/tiiuae/tcpdump
           tags: |
             type=ref,event=branch
             type=ref,event=pr
